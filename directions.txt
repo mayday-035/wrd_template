@@ -1,0 +1,28 @@
+Docx how to:
+change to zip
+extract
+
+edit 3 docs
+docProps\app.xml
+	change template name
+	and company name
+docProps\core.xml	
+	Change creator and edited name
+word\_rels\settings.xml.rels
+	change target= to url of malicious template
+re-compress then change back to .docx
+	verify properties contain no pii
+	
+Template how to:
+Add whatever VBA script wanted
+change to zip
+extract
+edit 2 docs
+docProps\app.xml
+	change template name
+	and company name
+docProps\core.xml	
+	Change creator and edited name
+	
+re-compress then change back to .dotm
+	verify properties contain no pii
